@@ -101,5 +101,4 @@ public class QueueBuiltWithTwoStacks<T> {
     public boolean isEmpty() {
         return forwardStack.isEmpty() && reverseStack.isEmpty();
     }
-
 }
